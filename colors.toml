@@ -1,0 +1,35 @@
+# Dorado (Stormfront): ion-core ice and star gold sampled from the ESA/Hubble N159 stellar nursery.
+mode = "dark"
+
+accent = "#b7d6e6"
+selection = "#2a3550"
+muted = "#7a869b"
+
+background = "#07090e"
+dark_background = "#05070b"
+darker_background = "#030407"
+lighter_background = "#10141d"
+
+foreground = "#dde4ee"
+dark_foreground = "#7a869b"
+light_foreground = "#eef2f7"
+bright_foreground = "#f7f9fc"
+
+red = "#d9745f"
+yellow = "#e8a35a"
+orange = "#c9824a"
+green = "#8fb3a0"
+cyan = "#9cc6d8"
+blue = "#7a9cc6"
+magenta = "#a99cc8"
+brown = "#5f4539"
+
+bright_red = "#eb8c78"
+bright_yellow = "#f3c58a"
+bright_green = "#a9c9b6"
+bright_cyan = "#b7d6e6"
+bright_blue = "#9ab8dc"
+bright_magenta = "#c2b6dc"
+
+hyprland_active_border = "rgba(b7d6e6ee) rgba(546c8cee) rgba(e8a35aee) 45deg"
+hyprland_inactive_border = "rgba(1f2735cc)"

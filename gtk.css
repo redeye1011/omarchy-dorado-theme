@@ -1,0 +1,75 @@
+/* Dorado GTK colors. Linked into ~/.config/gtk-{3,4}.0 by the gtk-css theme-set hook. */
+
+@define-color background     #07090eed;
+@define-color foreground     #dde4ee;
+@define-color black          #030407;
+@define-color surface        #10141d;
+@define-color muted          #7a869b;
+@define-color accent         #b7d6e6;
+@define-color red            #d9745f;
+@define-color green          #8fb3a0;
+@define-color yellow         #e8a35a;
+@define-color blue           #7a9cc6;
+
+@define-color accent_bg_color @accent;
+@define-color accent_fg_color #07090e;
+@define-color accent_color @accent;
+
+@define-color window_bg_color @background;
+@define-color window_fg_color @foreground;
+
+@define-color view_bg_color @background;
+@define-color view_fg_color @foreground;
+@define-color sidebar_bg_color @background;
+@define-color sidebar_fg_color @foreground;
+@define-color sidebar_backdrop_color @background;
+@define-color sidebar_shade_color @background;
+
+@define-color headerbar_bg_color alpha(@foreground, 0.05);
+@define-color headerbar_fg_color @foreground;
+@define-color headerbar_backdrop_color @black;
+@define-color headerbar_shade_color @black;
+@define-color card_bg_color alpha(@foreground, 0.05);
+@define-color card_fg_color @foreground;
+
+@define-color popover_bg_color @surface;
+@define-color popover_fg_color @foreground;
+
+@define-color destructive_bg_color @red;
+@define-color destructive_fg_color #07090e;
+@define-color success_bg_color @green;
+@define-color success_fg_color #07090e;
+@define-color warning_bg_color @yellow;
+@define-color warning_fg_color #07090e;
+@define-color error_bg_color @red;
+@define-color error_fg_color #07090e;
+
+@define-color dialog_bg_color @background;
+@define-color dialog_fg_color @foreground;
+
+@define-color borders alpha(@accent, 0.25);
+
+@define-color theme_fg_color @foreground;
+@define-color theme_text_color @foreground;
+@define-color theme_bg_color @background;
+@define-color theme_base_color @black;
+@define-color theme_selected_bg_color @accent;
+@define-color theme_selected_fg_color #07090e;
+@define-color insensitive_bg_color @background;
+@define-color insensitive_fg_color @muted;
+@define-color insensitive_base_color @black;
+@define-color theme_unfocused_fg_color @foreground;
+@define-color theme_unfocused_text_color @foreground;
+@define-color theme_unfocused_bg_color @background;
+@define-color theme_unfocused_base_color @black;
+@define-color theme_unfocused_selected_bg_color @accent;
+@define-color theme_unfocused_selected_fg_color #07090e;
+@define-color unfocused_insensitive_color @muted;
+@define-color unfocused_borders alpha(@accent, 0.10);
+@define-color warning_color @yellow;
+@define-color error_color @red;
+@define-color success_color @green;
+@define-color destructive_color @red;
+
+@define-color content_view_bg @black;
+@define-color text_view_bg @black;

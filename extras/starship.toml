@@ -1,0 +1,43 @@
+add_newline = true
+command_timeout = 200
+
+format = """
+$directory\
+$git_branch\
+$git_status\
+$cmd_duration\
+$line_break\
+$character"""
+
+[character]
+success_symbol = "[✦](bold #e8a35a) [❯](#b7d6e6)"
+error_symbol = "[✦](bold #d9745f) [❯](#eb8c78)"
+
+[directory]
+truncation_length = 3
+truncation_symbol = "…/"
+style = "bold #dde4ee"
+repo_root_style = "bold #b7d6e6"
+repo_root_format = "[✧ ](#7a869b)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
+read_only = " 󰌾"
+read_only_style = "#d9745f"
+
+[git_branch]
+symbol = " "
+style = "italic #e8a35a"
+format = "on [$symbol$branch]($style) "
+
+[git_status]
+style = "#b7d6e6"
+format = '([\[$all_status\]]($style) )'
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+modified = "!"
+staged = "+"
+untracked = "?"
+
+[cmd_duration]
+min_time = 500
+style = "dim #9ab8dc"
+format = "took [$duration]($style) "

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="188" viewBox="0 0 800 188">
+  <!-- Dorado unlock mark: gold diffraction-spike star beside the wordmark. Rendered to ../unlock.png. -->
+  <defs>
+    <radialGradient id="core"><stop offset="0" stop-color="#fff7ea"/><stop offset=".35" stop-color="#e8a35a"/><stop offset="1" stop-color="#e8a35a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="h" x1="0" x2="1"><stop offset="0" stop-color="#b7d6e6" stop-opacity="0"/><stop offset=".5" stop-color="#e6f2f8"/><stop offset="1" stop-color="#b7d6e6" stop-opacity="0"/></linearGradient>
+    <linearGradient id="v" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b7d6e6" stop-opacity="0"/><stop offset=".5" stop-color="#e6f2f8"/><stop offset="1" stop-color="#b7d6e6" stop-opacity="0"/></linearGradient>
+  </defs>
+  <g transform="translate(94 94)">
+    <path d="M-86 0 L0 -3.2 L86 0 L0 3.2Z" fill="url(#h)"/>
+    <path d="M0 -90 L3.2 0 L0 90 L-3.2 0Z" fill="url(#v)"/>
+    <path d="M-30 -30 L0 -1.5 L30 30 L0 1.5Z" fill="#b7d6e6" opacity=".35"/>
+    <path d="M30 -30 L1.5 0 L-30 30 L-1.5 0Z" fill="#b7d6e6" opacity=".35"/>
+    <circle r="30" fill="url(#core)"/>
+    <circle r="7" fill="#fffaf2"/>
+  </g>
+  <text x="220" y="122" font-family="JetBrains Mono" font-weight="200" font-size="92" letter-spacing="30" fill="#b7d6e6">DORADO</text>
+</svg>
