@@ -2,11 +2,11 @@
 -- ionised gas, two-tone ion bloom, soft "condense" window entry, and 0.95/0.88 focus depth.
 
 local active_border_color = {
-  colors = { "rgba(b7d6e6ee)", "rgba(546c8cee)", "rgba(e8a35aee)", "rgba(b7d6e6ee)" },
+  colors = { "rgba(ff9447ee)", "rgba(e8a35aee)", "rgba(b7d6e6ee)", "rgba(ff9447ee)" },
   angle = 45,
 }
 local inactive_border_color = "rgba(1f2735cc)"
-local shadow_color = "rgba(b7d6e640)" -- ion-core bloom
+local shadow_color = "rgba(ff944740)" -- star-gold halo
 local shadow_color_inactive = "rgba(00000077)"
 
 hl.curve("condense", { type = "bezier", points = { { 0.22, 1.00 }, { 0.36, 1.00 } } }) -- gas settling into place
@@ -34,7 +34,7 @@ hl.config({
     rounding = 10,
     shadow = {
       enabled = true,
-      range = 18,
+      range = 20,
       render_power = 3,
       color = shadow_color,
       color_inactive = shadow_color_inactive,
