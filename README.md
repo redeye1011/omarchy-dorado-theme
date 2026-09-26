@@ -10,6 +10,8 @@ The palette pairs ion-core ice (`#b7d6e6`) with star gold (`#e8a35a`) on a deep-
 - **Focus depth:** focused windows at 0.95 opacity, unfocused at 0.88, so the nebula shows through.
 - **Seven 4K wallpapers**, every one of them in Dorado.
 
+![Dorado desktop](preview.png)
+
 ![Dorado unlock screen](preview-unlock.png)
 
 ## Install
