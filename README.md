@@ -5,7 +5,6 @@ A theme for [Omarchy](https://omarchy.org) sampled from the ESA/Hubble picture *
 The palette pairs ion-core ice (`#b7d6e6`) with star gold (`#e8a35a`) on a deep-space background (`#07090e`):
 
 - **Drifting border:** a 4-stop gradient (ice → storm blue → gold → ice) that rotates slowly, like ionised gas.
-- **Ion bloom:** focused windows get an 18px ice-blue glow.
 - **Condense motion:** windows settle in from 94% scale on a soft curve.
 - **Focus depth:** focused windows at 0.95 opacity, unfocused at 0.88, so the nebula shows through.
 - **Seven 4K wallpapers**, every one of them in Dorado.
@@ -47,7 +46,7 @@ To show the starburst mark on the boot disk-unlock screen, open the Omarchy menu
 | File | What it does |
 |---|---|
 | `colors.toml` | Ice and gold palette sampled from N159 |
-| `hyprland.lua` | Rotating 4-stop border, ion bloom shadow, `condense`/`drift` curves, 0.95/0.88 opacity |
+| `hyprland.lua` | Rotating 4-stop border, `condense`/`drift` curves, 0.95/0.88 opacity |
 | `shell.toml` | Bar, popups, tooltips, notifications, launcher, menu, polkit, lock and image picker at 0.93 alpha; gold for bar modules calling attention |
 | `ghostty.conf`, `foot.ini` | Terminal palettes with 0.93 background opacity and a gold cursor |
 | `gtk.css` | GTK 3/4 and libadwaita colors at 0.93 opacity |
